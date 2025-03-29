@@ -9,3 +9,54 @@ This is a Python script that scrapes service status information from [Digitalise
 - Appends new data to a local txt file instead of overwriting
 - Implements some error handling
 
+
+### 1. Clone the repository:
+```bash
+git https://github.com/DimitraSis/digitaliser_scraper.git
+
+```
+
+### 2. Create and activate a virtual environment:
+```bash
+# Windows (PowerShell)
+python -m venv venv
+venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Run the script to fetch service status data and save it to a txt file:
+```bash
+python scraper.py
+```
+
+By default, the scraped data is saved in `database.txt`.
+
+## Project Structure
+```
+📂 digitaliser_scraper/
+│── 📄 scraper.py       # Scrapes data from Digitaliser.dk
+│── 📄 database.py      # Handles saving data to a database
+│── 📄 config.py        # Stores configuration (e.g., base URL)
+│── 📄 test_scraper.py  # Unit tests for scraper functionality
+│── 📄 requirements.txt # List of dependencies
+│── 📄 README.md        # Project documentation
+```
+
+## Configuration
+
+The base URL is stored in `config.py`:
+```python
+class Config:
+    BASE_URL = "https://digitaliser.dk/driftsstatus"
+```
+If the URL changes, update it in this file.
