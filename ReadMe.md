@@ -50,6 +50,7 @@ By default, the scraped data is saved in `database.txt`.
 │── 📄 test_scraper.py  # Unit tests for scraper functionality
 │── 📄 requirements.txt # List of dependencies
 │── 📄 README.md        # Project documentation
+│── 📄 database.txt     # A file (mocup) database
 ```
 
 ## Configuration
