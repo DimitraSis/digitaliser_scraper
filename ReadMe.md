@@ -60,3 +60,5 @@ class Config:
     BASE_URL = "https://digitaliser.dk/driftsstatus"
 ```
 If the URL changes, update it in this file.
+
+# TODO: change repo's visibility
