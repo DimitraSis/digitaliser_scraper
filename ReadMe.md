@@ -10,9 +10,9 @@ This is a Python script that scrapes service status information from [Digitalise
 - Implements some error handling
 
 
-### 1. Clone the repository:
+### 1. Clone the repository from git:
 ```bash
-git https://github.com/DimitraSis/digitaliser_scraper.git
+ https://github.com/DimitraSis/digitaliser_scraper.git
 
 ```
 
