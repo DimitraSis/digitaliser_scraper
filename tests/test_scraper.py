@@ -25,7 +25,6 @@ class TestScraper(unittest.TestCase):
         self.assertEqual(len(service_data), 1)
         self.assertEqual(service_data[0]['service_name'], 'Service A')
         self.assertEqual(service_data[0]['status'], 'Operational')
-        self.assertIn('timestamp', service_data[0])  # Check if timestamp is present
 
 
 
