@@ -64,4 +64,13 @@ class Config:
 ```
 If the URL changes, update it in this file.
 
+
+## Tests
+
+To run all test files (unit + integration), use:
+```python
+python -m unittest discover tests
+```
+
+
 # TODO: change repo's visibility
