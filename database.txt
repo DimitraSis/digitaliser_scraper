@@ -34,3 +34,21 @@
 {"service_name": "Blanketmotor", "status": "Normal drift", "timestamp": "29/03/2025 18:10:03"}
 {"service_name": "sundhed.dk", "status": "Normal drift", "timestamp": "29/03/2025 18:10:03"}
 {"service_name": "virk", "status": "Normal drift", "timestamp": "29/03/2025 18:10:03"}
+{"service_name": "borger.dk", "status": "Normal drift", "timestamp": "29/03/2025 19:58:03"}
+{"service_name": "Digital Post", "status": "Normal drift", "timestamp": "29/03/2025 19:58:03"}
+{"service_name": "eID-Gateway", "status": "Normal drift", "timestamp": "29/03/2025 19:58:03"}
+{"service_name": "MitID", "status": "Normal drift", "timestamp": "29/03/2025 19:58:03"}
+{"service_name": "NemKonto", "status": "Normal drift", "timestamp": "29/03/2025 19:58:03"}
+{"service_name": "NemLog-in", "status": "Normal drift", "timestamp": "29/03/2025 19:58:03"}
+{"service_name": "Blanketmotor", "status": "Normal drift", "timestamp": "29/03/2025 19:58:03"}
+{"service_name": "sundhed.dk", "status": "Normal drift", "timestamp": "29/03/2025 19:58:03"}
+{"service_name": "virk", "status": "Normal drift", "timestamp": "29/03/2025 19:58:03"}
+{"service_name": "borger.dk", "status": "Normal drift", "timestamp": "30/03/2025 16:30:03"}
+{"service_name": "Digital Post", "status": "Normal drift", "timestamp": "30/03/2025 16:30:03"}
+{"service_name": "eID-Gateway", "status": "Normal drift", "timestamp": "30/03/2025 16:30:03"}
+{"service_name": "MitID", "status": "Normal drift", "timestamp": "30/03/2025 16:30:03"}
+{"service_name": "NemKonto", "status": "Normal drift", "timestamp": "30/03/2025 16:30:03"}
+{"service_name": "NemLog-in", "status": "Normal drift", "timestamp": "30/03/2025 16:30:03"}
+{"service_name": "Blanketmotor", "status": "Normal drift", "timestamp": "30/03/2025 16:30:03"}
+{"service_name": "sundhed.dk", "status": "Normal drift", "timestamp": "30/03/2025 16:30:03"}
+{"service_name": "virk", "status": "Normal drift", "timestamp": "30/03/2025 16:30:03"}
