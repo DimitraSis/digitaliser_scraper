@@ -6,8 +6,9 @@ This is a Python script that scrapes service status information from [Digitalise
 - Scrapes service status from Digitaliser.dk
 - Extracts service name and operational status
 - Saves data in a structured JSON format
-- Appends new data to a local txt file instead of overwriting
+- Appends new data to a local txt file
 - Implements some error handling
+- Unit and intergration test 
 
 
 ### 1. Clone the repository from git:
@@ -51,8 +52,8 @@ By default, the scraped data is saved in `database.txt`.
 │── 📄 README.md            # Project documentation
 │── 📄 database.txt         # A file (mocup) database
 │── 📄 tests/
-│   │── test_scraper.py      # Mocked tests (unit tests)
-│   │── test_scraper_integration.py  # Real tests (integration)
+│   │── test_scraper.py      # Unit test
+│   │── test_scraper_integration.py  # Integration test
 ```
 
 ## Configuration
@@ -63,6 +64,7 @@ class Config:
     BASE_URL = "https://digitaliser.dk/driftsstatus"
 ```
 If the URL changes, update it in this file.
+The same for the database.
 
 
 ## Tests
