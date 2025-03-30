@@ -49,8 +49,8 @@ if __name__ == "__main__":
     service_data = fetch_service_status()
 
     if service_data:
-        save_to_db(service_data)  # Save to the JSON database
-        print("Fetched Data (Saved to database.json):")
+        save_to_db(service_data)  # Save to the "database"
+        print("Fetched Data (Saved to database.txt):")
         print(json.dumps(service_data, indent=4, ensure_ascii=False))
 
     #print("\n--- Database Content ---")
