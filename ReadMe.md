@@ -72,5 +72,3 @@ To run all test files (unit + integration), use:
 python -m unittest discover tests
 ```
 
-
-# TODO: change repo's visibility
