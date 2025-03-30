@@ -8,7 +8,7 @@ This is a Python script that scrapes service status information from [Digitalise
 - Saves data in a structured JSON format
 - Appends new data to a local txt file
 - Implements some error handling
-- Unit and intergration test 
+- Unit and integration test 
 
 
 ### 1. Clone the repository from git:
