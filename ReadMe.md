@@ -47,12 +47,12 @@ By default, the scraped data is saved in `database.txt`.
 │── 📄 scraper.py           # Scrapes data from Digitaliser.dk
 │── 📄 database.py          # Handles saving data to a database
 │── 📄 config.py            # Stores configuration (e.g., base URL)
-│── 📄 tests/
-│   │── test_scraper.py      # Mocked tests (unit tests)
-│   │── test_scraper_integration.py  # Real tests (integration)
 │── 📄 requirements.txt     # List of dependencies
 │── 📄 README.md            # Project documentation
 │── 📄 database.txt         # A file (mocup) database
+│── 📄 tests/
+│   │── test_scraper.py      # Mocked tests (unit tests)
+│   │── test_scraper_integration.py  # Real tests (integration)
 ```
 
 ## Configuration
